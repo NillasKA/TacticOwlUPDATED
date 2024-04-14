@@ -1,0 +1,25 @@
+Exception loading list element Verse.DefModExtension from XML: System.MissingMethodException: Default constructor not found for type Verse.DefModExtension
+[Ref 1F3FE38F] Duplicate stacktrace, see ref for original
+XML:
+<modExtensions><li Class="Tacticowl.TwoHander" /></modExtensions>
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+XmlExtensions.CustomXmlLoader:ListFromXml<Verse.DefModExtension> (System.Xml.XmlNode,System.Xml.XmlNode,string)
+XmlExtensions.CustomXmlLoader:ListFromXmlReflection<Verse.DefModExtension> (System.Xml.XmlNode,System.Xml.XmlNode,string)
+XmlExtensions.CustomXmlLoader:ObjectFromXml<System.Collections.Generic.List`1<Verse.DefModExtension>> (System.Xml.XmlNode,bool,System.Xml.XmlNode,string)
+XmlExtensions.CustomXmlLoader:ObjectFromXmlReflection<System.Collections.Generic.List`1<Verse.DefModExtension>> (System.Xml.XmlNode,bool)
+XmlExtensions.CustomXmlLoader:ObjectFromXml<Verse.ThingDef> (System.Xml.XmlNode,bool,System.Xml.XmlNode,string)
+XmlExtensions.CustomXmlLoader:ObjectFromXmlReflection<Verse.ThingDef> (System.Xml.XmlNode,bool)
+Verse.DirectXmlLoader:DefFromNode (System.Xml.XmlNode,Verse.LoadableXmlAsset)
+Verse.LoadedModManager:ParseAndProcessXML (System.Xml.XmlDocument,System.Collections.Generic.Dictionary`2<System.Xml.XmlNode, Verse.LoadableXmlAsset>,bool)
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__6_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()

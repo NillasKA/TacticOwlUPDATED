@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RunAndGun (1.5 Updated by Nillas)</name>
+	<author>Roolo, Owlchemist, Nillas</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modVersion>2.0.22</modVersion>
+	<packageId>roolo.runandgun</packageId>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<description>UPDATED BY NILLAS - DUAL WIELD, and SEARCH AND DESTROY does not seem to work.</description>
+	<incompatibleWith>
+	</incompatibleWith>
+</ModMetaData>
